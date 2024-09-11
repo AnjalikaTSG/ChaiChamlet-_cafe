@@ -11,7 +11,9 @@ const Dessert = () => {
     <Section id="dessert">
       <RunningText />
       <TitlePage title="Desserts & Beverages" />
-      <div className="mt-[50px] min-h-[70vh] grid grid-cols-4 gap-[2px] mb-16">
+      
+      {/* Responsive Grid Layout */}
+      <div className="mt-[50px] min-h-[70vh] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16">
         {Desserts.map((item) => (
           <DessertCard
             key={item.id}
