@@ -33,9 +33,9 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col mb-6 md:mb-0">
                         <FooterTitle>Product</FooterTitle>
-                        <a href="/menu" className="text-[#e8e8e8] opacity-90 mt-2">Coffee</a>
-                        <a href="/desserts" className="text-[#e8e8e8] opacity-90 mt-2">Desserts</a>
-                        <p className="text-[#e8e8e8] opacity-90 mt-2">Beverages</p>
+                        <a href="#menu" className="text-[#e8e8e8] opacity-90 mt-2">Coffee</a>
+                        <a href="#dessert" className="text-[#e8e8e8] opacity-90 mt-2">Desserts</a>
+                        <a href="#dessert" className="text-[#e8e8e8] opacity-90 mt-2">Beverages</a>
                     </div>
                     <div className="flex flex-col">
                         <FooterTitle>Facility</FooterTitle>
